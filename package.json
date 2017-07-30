@@ -1,8 +1,10 @@
 {
   "name": "api",
   "version": "0.1.0",
+  "homepage": "http://radu200.github.io/BooksSearch",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "jquery": "^3.2.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
@@ -12,6 +14,8 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

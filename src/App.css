@@ -39,3 +39,9 @@ img{
   color: #121010;
 
 }
+@media(max-width:480px){
+  .input{
+    width: 170px;
+  }
+
+}
