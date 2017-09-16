@@ -55,8 +55,8 @@ class Books extends Component {
           <div className="description col-md-12">
             <ul className="list-group">
               <li className="list-group-item">
-                <strong>Description
-                </strong>{books.volumeInfo.description}
+                <strong>Description:
+                </strong><br></br>{books.volumeInfo.description}
               </li>
             </ul>
           </div>

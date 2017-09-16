@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App container ">
         <h3 className="text-center">Search For Any Book</h3>
-        <FormControl className="input" type="text" placeholder="Search " value={this.state.query} onChange={event => {
+         <FormControl className="input" type="text" placeholder="Search " value={this.state.query} onChange={event => {
           this.setState({query: event.target.value})
         }} onKeyPress={event => {
           if (event.key === 'Enter') {

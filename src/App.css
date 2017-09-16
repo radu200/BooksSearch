@@ -27,6 +27,9 @@ ul {
   background-repeat: no-repeat;
 }
 
+.input{
+  margin-left: 13px;
+}
 img {
   margin-top: 20px;
   width: 100%;
@@ -67,13 +70,16 @@ img {
 
 @media(max-width:767px) and (min-width:576px) {
   img {
-    height: 650px;
+    height: 600px;
+  }
+  .input{
+    margin-left: 0px;
   }
 }
 
 @media(max-width:575px) {
-  .input {
-    width: 170px;
+  .input{
+    margin-left: -3px;
   }
   img {
     height: 450px;
