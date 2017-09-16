@@ -4,6 +4,7 @@
   "homepage": "http://radu200.github.io/BooksSearch",
   "private": true,
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "gh-pages": "^1.0.0",
     "jquery": "^3.2.1",
     "react": "^15.6.1",
@@ -11,11 +12,13 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "enzyme": "^2.9.1",
+    "react-addons-test-utils": "^15.0.0-rc.2",
     "react-scripts": "1.0.10"
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
